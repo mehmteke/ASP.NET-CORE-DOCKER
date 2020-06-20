@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleDocker
 {
@@ -6,8 +7,12 @@ namespace ConsoleDocker
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            while (i < 100)
+            {
+                Console.WriteLine("Adet : " + i);
+            }
 
-            Console.WriteLine("Hello World!");
         }
     }
 }
